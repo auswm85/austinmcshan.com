@@ -1,0 +1,47 @@
+$mainLinkColor: #8B0000;
+
+body{
+	background: url('../background.png');
+}
+
+.container{
+	padding-top:50px;
+}
+
+.logo{
+	position:absolute;
+	left:50px;
+	top:110px;
+}
+
+aside .well{
+	padding:10px;
+
+	h3{
+		font-size:1.1em;
+		padding:0 10px;
+		background-color: $mainLinkColor;
+		border: 1px solid maroon;
+		text-shadow: 1px 1px #333;
+		color:#fff;
+		border-radius: 0.8em;
+	}
+}
+
+.post{
+	margin-bottom:30px;
+	position:relative;
+
+	i.icon-bookmark{
+		padding-right:10px;
+	}
+
+	h3 a{
+	 color: $mainLinkColor;
+	}
+}
+
+.name{
+	color: #444;
+	font-weight:bold;	
+}

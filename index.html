@@ -1,0 +1,21 @@
+---
+layout: default
+title: Austin McShan
+---
+
+<section class="posts">
+	{% for post in site.posts %}
+		<div class="post">
+			<h3>
+				<a href="{{post.url}}" title="{{post.title}}"><i class="icon-bookmark"></i>{{post.title}}</a>
+			</h3>
+			<p class="meta">{{ post.date | date: "%B %e, %Y" }} by: 
+				<a href="/"><span class="name">{{ post.author.name }}</span></a>
+			</p>
+			<p>
+				{{ post.content|truncatewords: 75 }}
+			</p>
+			<a class="btn" href="{{ post.url }}">Read more <i class="icon-chevron-right"></i></a>
+		</div>
+	{% endfor %}
+</section>
