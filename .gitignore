@@ -1,5 +1,8 @@
 _site/
+<<<<<<< HEAD
 _drafts/
 
 .sass-cache
 *.DS_STORE
+=======
+>>>>>>> 3a38ca9addc162db216906ac12f62f48f9cf9d0e
