@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Belgian Wheat IPA
+slug: belgian-wheat-ipa
 author:
   name: Austin Mcshan
 ---

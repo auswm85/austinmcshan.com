@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Timex Global Trainer
+slug: timex-global-trainer
 author:
   name: Austin Mcshan
 ---
