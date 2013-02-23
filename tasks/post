@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+ROOT_DIR = Path.join(Filename.dirname(__FILE__), '/..')
+
+title = ARGV[0]
+
+unless title:
+    puts %{Usage #{$0} "The post title"}
+    exit(-1)
+end 
+
+datetime = (Time.now + 30*60).strftime('%Y-%m-%d')
+slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+path = "#{ROOT_DIR}/_posts/#{datetime}-#{slug}.md"
+
+header = <<-END
+
+---
+title: #{title}
+slug: #{slug}
+author: 
+    name: Austin McShan
+---
+
+END
+
+File.open(path, 'w'){ |f| f << header }
+system('mate', '-a', path)

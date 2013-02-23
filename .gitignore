@@ -1,5 +1,6 @@
 _site/
 _drafts/
 
-.sass-cache
+.sass-cache/
+tmp/
 *.DS_STORE
