@@ -3,4 +3,5 @@ destination: ./_site
 includes: ./_includes
 
 markdown: rdiscount
+pygments: true
 permalink: /:title.html
