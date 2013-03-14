@@ -9,14 +9,14 @@ I've been looking at purchasing a training watch since my last Timex watch bit t
 
 The main reason I went for this watch is that is has a rich multi-sport tool set. Since I bike & run I liked that I would be able to use this watch to track metrics for both activities and have the ability to add custom activities in the future. It is also the first GPS based watch I have owned so I look forward to having more precise distance & speed measurements. Here are a few of the pros and cons I have experienced so far.
 
-## Pros ##
+#### Pros ####
 - Lots of neat features
 - Easy to setup and use
 - Came with a bike mount
 - GPS enabled
 - Easy to read
 
-## Cons ##
+#### Cons ####
 - It's a huge watch that you  probably won't want to wear everyday
 - No wireless sync capability with computer/website
 

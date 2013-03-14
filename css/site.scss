@@ -1,4 +1,8 @@
-$mainLinkColor: #8B0000;
+@import 'bootstrap/css/bootstrap.min.css';
+@import 'bootstrap/css/bootstrap-responsive.min.css';
+@import 'font-awesome.min.css';
+
+$darkRed: #8B0000;
 
 body{
 	background: url('../background.png');
@@ -20,7 +24,7 @@ aside .well{
 	h3{
 		font-size:1.1em;
 		padding:0 10px;
-		background-color: $mainLinkColor;
+		background-color: $darkRed;
 		border: 1px solid maroon;
 		text-shadow: 1px 1px #333;
 		color:#fff;
@@ -36,8 +40,9 @@ aside .well{
 		padding-right:10px;
 	}
 
-	h3 a{
-	 color: $mainLinkColor;
+	h3 {
+	 color: $darkRed;
+	  a { color: $darkRed; }
 	}
 }
 
