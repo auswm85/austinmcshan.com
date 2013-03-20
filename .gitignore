@@ -1,6 +1,7 @@
 _site/
 _drafts/
 
+.htaccess
 .sass-cache/
 tmp/
 *.DS_STORE
