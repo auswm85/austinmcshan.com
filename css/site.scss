@@ -4,35 +4,41 @@
 
 $darkRed: #8B0000;
 
-body{
-	background: url('../background.png');
+#masthead {
+	width:100%;
+	padding:20px 0;
+	background-size:198px 200px;
+	background-image: url(/background.png);
 }
 
-.container{
-	padding-top:50px;
+#github {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
 }
 
-.logo{
-	position:absolute;
-	left:50px;
-	top:110px;
+#masthead .logo {
+	display:block;
+	margin-right:10px;
 }
 
-aside .well{
-	padding:10px;
-
-	h3{
-		font-size:1.1em;
-		padding:0 10px;
-		background-color: $darkRed;
-		border: 1px solid maroon;
-		text-shadow: 1px 1px #333;
-		color:#fff;
-		border-radius: 0.8em;
-	}
+.intro h1{
+	margin-bottom:0;
 }
 
-.post{
+.intro p {
+	color:#fff;
+	margin-left:6px;
+	font-size:1.1em;
+	text-shadow:1px 1px #333;
+}
+
+.posts {
+	margin-top:30px;
+}
+
+.post {
 	margin-bottom:30px;
 	position:relative;
 
@@ -40,13 +46,13 @@ aside .well{
 		padding-right:10px;
 	}
 
-	h3 {
+	h2, h3 {
 	 color: $darkRed;
 	  a { color: $darkRed; }
 	}
 }
 
-.name{
+.name {
 	color: #444;
 	font-weight:bold;	
 }

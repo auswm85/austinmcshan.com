@@ -2,27 +2,32 @@
 layout: default
 ---
 
-<div class="post">
-	<h3><i class="icon-bookmark"></i> {{ page.title }}</h3>
-	{{content}}
-</div>
-<div id="comments">
-    <div id="disqus_thread"></div>
-        <script type="text/javascript"> 
-        var disqus_shortname = 'austinmcshan';
-        var disqus_developer = 0;
-        var disqus_domain = 'disqus.com';
-        var disqus_container_id = 'disqus_thread'; 
-        var disqus_identifier = '{{page.slug}}';
-        var disqus_url = '{{page.url}}';
-        var disqus_title = '{{page.title|escape}}';
+<section class="posts span8 offset2">
+    <div class="post">
+    	<h2><i class="icon-bookmark"></i> {{ page.title }}</h2>
+        <p class="meta">{{ page.date | date: "%B %e, %Y" }} by: 
+            <a href="/"><span class="name">{{ page.author.name }}</span></a>
+        </p>
+    	{{content}}
+    </div>
+    <div id="comments">
+        <div id="disqus_thread"></div>
+            <script type="text/javascript"> 
+            var disqus_shortname = 'austinmcshan';
+            var disqus_developer = 0;
+            var disqus_domain = 'disqus.com';
+            var disqus_container_id = 'disqus_thread'; 
+            var disqus_identifier = '{{page.slug}}';
+            var disqus_url = '{{page.url}}';
+            var disqus_title = '{{page.title|escape}}';
 
-        (function() {
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript'; 
-            dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-        </script>
-</div>
+            (function() {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript'; 
+                dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            </script>
+    </div>
+</section>
