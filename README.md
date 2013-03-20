@@ -1,4 +1,4 @@
 austinmcshan.com
 ================
 
-Personal blog site.
+Personal blog site built with jekyll.
