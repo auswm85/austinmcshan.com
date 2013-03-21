@@ -7,4 +7,4 @@ pygments: true
 permalink: /:title.html
 
 base_url: http://austinmcshan.com
-exclude: ['config.rb', 'README.md']
+exclude: ['config.rb', 'README.md', 'sass', 'tasks']
