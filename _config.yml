@@ -5,3 +5,6 @@ includes: ./_includes
 markdown: rdiscount
 pygments: true
 permalink: /:title.html
+
+base_url: http://austinmcshan.com
+exclude: ['config.rb', 'README.md']
