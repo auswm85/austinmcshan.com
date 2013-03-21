@@ -11,7 +11,8 @@ title: Austin McShan
 				<p class="meta">{{ post.date | date: "%B %e, %Y" }} by: 
 					<a href="/"><span class="name">{{ post.author.name }}</span></a>
 				</p>
-				<p>{{ post.content|truncatewords: 75 }}</p>
+				<div class="content">{{ post.content|truncatewords: 75 }}</div>
+
 				<a class="btn" href="{{ post.url }}">Read more <i class="icon-chevron-right"></i></a>
 			</div>
 		{% endfor %}
