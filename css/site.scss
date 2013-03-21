@@ -27,6 +27,10 @@ $darkRed: #8B0000;
 	margin-bottom:0;
 }
 
+intro a {
+	text-decoration:none;
+}
+
 .intro p {
 	color:#fff;
 	margin-left:6px;
@@ -48,7 +52,10 @@ $darkRed: #8B0000;
 
 	h2, h3 {
 	 color: $darkRed;
-	  a { color: $darkRed; }
+	  a { 
+	  		color: $darkRed; 
+	  		text-decoration:none; 
+	  	}
 	}
 }
 
