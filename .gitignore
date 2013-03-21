@@ -1,6 +1,7 @@
 _site/
 _drafts/
 
+deploy
 .htaccess
 .sass-cache/
 tmp/
