@@ -27,7 +27,7 @@ $darkRed: #8B0000;
 	margin-bottom:0;
 }
 
-intro a {
+.intro a {
 	text-decoration:none;
 }
 
@@ -54,7 +54,8 @@ intro a {
 	 color: $darkRed;
 	  a { 
 	  		color: $darkRed; 
-	  		text-decoration:none; 
+	  		text-decoration:none;
+	  		&:hover { color: lighten($darkRed, 10%); }
 	  	}
 	}
 }
