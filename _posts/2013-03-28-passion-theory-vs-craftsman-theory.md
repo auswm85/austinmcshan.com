@@ -5,7 +5,7 @@ slug: passion-theory-vs-craftsman-theory
 author:
   name: Austin Mcshan
 ---
-I recently came across a book [So Good They Can't Ignore You](http://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124/ "So Good They Can't Ignore You") by Cal Newport. This got me thinking about my perception work and possible ways to improvement it. 
+I recently came across a book [So Good They Can't Ignore You](http://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124/ "So Good They Can't Ignore You") by Cal Newport. This got me thinking about my perception of work and possible ways to improvement it. 
 
 In his book Newton attempts to explain how to derive happiness from your career. His view on attaining career happiness is that when deciding what career path to take one should consider doing something they are good at over the traditional path which is following something they are passionate about.
 
