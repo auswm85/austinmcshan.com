@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# used to promote a draft to published post
+
+if [ -z "$1" ] 
+then
+    echo "What draft do you want to publish?"
+    read post
+else
+    echo "promoting $1 to post..."
+    post="$1"
+fi
+
+if [ -d "../_posts/" ]; then
+    mv ${post} ../_posts/
+else
+    echo "post could not be promoted because the _post folder does not exist."
+fi
