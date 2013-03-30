@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Passion Theory vs Craftsman Theory: Finding Happiness at work
+title: Passion Theory vs Craftsman Theory
 slug: passion-theory-vs-craftsman-theory
 author:
   name: Austin Mcshan
