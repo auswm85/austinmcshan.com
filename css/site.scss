@@ -1,6 +1,7 @@
 @import 'bootstrap/css/bootstrap.min.css';
 @import 'bootstrap/css/bootstrap-responsive.min.css';
 @import 'font-awesome.min.css';
+@import 'media-queries';
 
 $darkRed: #8B0000;
 
@@ -21,10 +22,23 @@ $darkRed: #8B0000;
 #masthead .logo {
 	display:block;
 	margin-right:10px;
+
+	@include tablet-landscape-and-below{
+		width:133px;
+		margin:0 auto;
+		float:none !important;
+	}
 }
 
 .intro{
 	width:100%;
+
+	div.pull-left{
+		@include tablet-landscape-and-below{
+			float:none !important;
+			text-align:center;
+		}
+	}
 }
 
 .intro h1{
@@ -57,6 +71,7 @@ $darkRed: #8B0000;
 
 	h2, h3 {
 	 color: $darkRed;
+	 font-size:2em;
 	  a { 
 	  		color: $darkRed; 
 	  		text-decoration:none;
