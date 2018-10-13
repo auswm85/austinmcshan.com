@@ -1,5 +1,6 @@
-@import 'bootstrap/css/bootstrap.min.css';
-@import 'bootstrap/css/bootstrap-responsive.min.css';
+---
+---
+
 @import 'font-awesome.min.css';
 @import 'media-queries';
 
@@ -12,12 +13,7 @@ body{
 }
 
 #masthead {
-	width:100%;
 	padding:20px 0;
-	background-size:198px 200px;
-	background-image: url(/background.png);
-	background-repeat: repeat, no-repeat;
-	background-position: 0 0, 0 0;
 }
 
 #github {
@@ -59,10 +55,12 @@ body{
 }
 
 .intro p {
-	color:#fff;
 	margin-left:6px;
 	font-size:1.1em;
-	text-shadow:1px 1px #333;
+}
+
+.intro #home{
+	color: $darkRed;
 }
 
 #nav-action{
@@ -98,7 +96,6 @@ body{
 
 .post {
 	margin-bottom:30px;
-	position:relative;
 
 	i.icon-bookmark{
 		padding-right:10px;

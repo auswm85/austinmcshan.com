@@ -2,14 +2,11 @@
 layout: default
 ---
 
-<div class="row-fluid">
-<section class="posts span8 offset2">
+<section class="posts col">
     <div class="post">
-    	<h2><i class="icon-bookmark"></i> {{ page.title }}</h2>
-        <p class="meta">{{ page.date | date: "%B %e, %Y" }} by: 
-            <a href="/"><span class="name">{{ page.author.name }}</span></a>
-        </p>
-    	{{content}}
+        <h2><i class="icon-bookmark"></i> {{ page.title }}</h2>
+        <p class="text-muted">{{ page.date | date: "%B %e, %Y" }}</p>
+        {{content}}
     </div>
     <div id="comments">
         <div id="disqus_thread"></div>
@@ -29,4 +26,3 @@ layout: default
             </script>
     </div>
 </section>
-</div>

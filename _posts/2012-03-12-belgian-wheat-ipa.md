@@ -7,4 +7,4 @@ author:
 ---
 Belgian Wheat IPA that was brewed this weekend. Check out the little yeasties at work. Long live the Llama.
 
-{% video http://dl.dropbox.com/u/12875761/belgianwheatipa %}
+{% video https://s3.amazonaws.com/awm-files/video/belgianwheatipa %}

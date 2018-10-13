@@ -3,8 +3,12 @@ destination: ./_site
 includes: ./_includes
 
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /:title.html
 
 base_url: http://austinmcshan.com
 exclude: ['config.rb', 'README.md', 'site.scss', 'tasks']
+
+sass:
+  sass_dir: _sass
+  style:  :compressed
