@@ -6,7 +6,7 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /:title.html
 
-base_url: http://austinmcshan.com
+base_url: https://austinmcshan.com
 exclude: ['config.rb', 'README.md', 'site.scss', 'tasks']
 
 sass:
